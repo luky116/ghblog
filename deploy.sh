@@ -1,4 +1,3 @@
-
 rm -rf ./public/*
 
 hugo -d ./public

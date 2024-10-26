@@ -21,7 +21,7 @@ jobs:
           extended: true
 
       - name: Build Hugo
-        run: hugo -b "https://lucumt.info/" -e "production"
+        run: hugo -b "https://luky116.github.io/" -e "production"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

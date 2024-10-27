@@ -58,11 +58,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #	weight = 50
 #	identifier = "links"
 #	url = "https://luky116.github.io/post/"
-[[menu.main]]
-	name = "关于我"
-	weight = 50
-	identifier = "about"
-	url = "/about/"
+#[[menu.main]]
+#	name = "关于我"
+#	weight = 50
+#	identifier = "about"
+#	url = "/about/"
 
 [params]
   #googleAd = "ca-pub-7546563545653680" 
@@ -218,8 +218,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.reward]                                         # 文章打赏
     enable = false
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+    wechat = "/img/reward/wechat.jpg"           # 微信二维码
+    alipay = "/img/reward/alipay.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "mailto:luky116@126.com"

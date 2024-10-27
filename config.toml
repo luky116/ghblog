@@ -1,7 +1,7 @@
 baseURL = "https://luky116.github.io/"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "飞狐的部落格"
+title = "三月的博客"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -32,7 +32,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "主页"
   weight = 10
   identifier = "home"
-  url = "/"
+  url = "/post/"
 [[menu.main]]
   name = "归档"
   weight = 20
@@ -53,11 +53,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 	weight = 50
 	identifier = "search"
 	url = "/search/"
-[[menu.main]]
-	name = "外链"
-	weight = 50
-	identifier = "links"
-	url = "https://tech.lucumt.info"
+#[[menu.main]]
+#	name = "外链"
+#	weight = 50
+#	identifier = "links"
+#	url = "https://luky116.github.io/post/"
 [[menu.main]]
 	name = "关于我"
 	weight = 50
@@ -70,7 +70,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
   
-  githubForkUrl = "https://github.com/lucumt/ghblog"
+  githubForkUrl = "https://github.com/luky116"
   enableCopyCode = true
 
   since = "2016"            # Site creation time          # 站点建立时间
@@ -79,9 +79,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   gitRepo = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Rosen's World"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "Luky116"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","even"]
-  description = "飞狐的个人博客,博主是一个混迹于帝都的程序猿，主要从事Java、Python和Golang相关的开发工作，欢迎互相交流!"
+  description = "三月的博客"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 50
@@ -222,13 +222,13 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:cumtlu@126.com"
-    b-stack-overflow = "https://stackoverflow.com/users/3176419"
+    a-email = "mailto:luky116@126.com"
+    #b-stack-overflow = "https://stackoverflow.com/users/3176419"
     #c-twitter = "http://localhost:1313"
     #d-facebook = "http://localhost:1313"
-    e-linkedin = "https://www.linkedin.com/in/%E8%BF%90%E5%BC%BA-%E5%8D%A2-50a08bb5/"
+    #e-linkedin = "https://www.linkedin.com/in/%E8%BF%90%E5%BC%BA-%E5%8D%A2-50a08bb5/"
     #f-google = "https://plus.google.com/u/0/115794588502118898127/posts"
-    g-github = "https://github.com/lucumt"
+    g-github = "https://github.com/luky116"
     #h-weibo = "http://localhost:1313"
     #i-zhihu = "http://localhost:1313"
     #j-douban = "http://localhost:1313"

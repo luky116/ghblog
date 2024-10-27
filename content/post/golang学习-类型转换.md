@@ -1,4 +1,5 @@
 ---
+title: "golang学习-类型转换"
 date: 2021-05-25T08:58:41+08:00
 draft: true
 tags: ["golang"]

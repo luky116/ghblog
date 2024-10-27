@@ -168,11 +168,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 	issueTerm = ""
     theme = ""
 	
-  [params.giscus]           # https://giscus.app/
-    repo = "lucumt/ghblog"
-    repoId = "MDEwOlJlcG9zaXRvcnk0MTQ3MDEzOA=="
-    category = "General"
-    categoryId = "DIC_kwDOAnjIus4CRN6c"
+  [params.giscus]           # https://giscus.app/zh-CN
+    repo = "luky116/luky116.github.io"
+    repoId = "MDEwOlJlcG9zaXRvcnkyNzgxMzMyOTY="
+    category = "Announcements"
+    categoryId = "DIC_kwDOEJP6MM4CjuRr"
     theme = "light" 	
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
